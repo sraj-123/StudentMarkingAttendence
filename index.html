@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: darkseagreen;
+        }
+
+        .navbar {
+            background-color: black;
+            overflow: hidden;
+            box-shadow: 0 4px 13px 0 yellow;
+            transition: 0.3s all ease-in-out;
+        }
+
+        .navbar a {
+            color: greenyellow;
+            padding: 14px 16px;
+            text-decoration: none;
+            text-align: center;
+            float: left;
+            font-size: 17px;
+
+
+
+
+        }
+
+        .navbar a:hover {
+            background-color: salmon;
+            color: black;
+            transition: 0.2s all ease-in-out;
+
+        }
+
+        .navbar a.active {
+            background-color: steelblue;
+            color: black;
+        }
+
+        .name {
+            background-color: coral;
+            color: black;
+            box-shadow: 0 4px 12px yellowgreen;
+            transition: 0.4s all ease-in-out;
+            text-align: center;
+
+        }
+
+        .name:hover {
+            background-color: lawngreen;
+            color: black;
+            transition: 0.4s all ease-in-out;
+        }
+
+        img {
+            margin: 24px;
+            border: 3px solid black;
+            border-radius: 6px;
+            box-shadow: 0 6px 15px 0 skyblue;
+            transition: 0.4s all ease-in-out;
+        }
+
+        img:hover {
+            border: 6px solid burlywood;
+            border-radius: 7px;
+
+
+        }
+
+        .arrow {
+            align-items: center;
+            margin-left: 45%;
+        }
+
+        figcaption {
+            text-align: center;
+            background-color: black;
+            color: red;
+            box-shadow: 0 3px 9px 0 goldenrod;
+        }
+
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: lightblue;
+            }
+
+            .navbar a {
+                font-size: 12px;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="http://127.0.0.1:5500/login.html" class="active"><b>LOGIN</b></a>
+        <a href="#register">REGISTER</a>
+        <a href="http://127.0.0.1:5500/About%20us.html">ABOUT US</a>
+        <a href="#contact">CONTACT</a>
+        <a href="help">HELP</a>
+        <a href="http://127.0.0.1:5500/calculator.html">CALCULATOR</a>
+    </div>
+
+    <div>
+        <h1 class="name">ATTENDEZZZ</h1>
+    </div>
+    <div class="AttendencePage">
+        <a href="http://127.0.0.1:5500/attendence.html"><img
+                src="https://media.istockphoto.com/id/1216533609/vector/arrow-flat-vector-isolated-direction-illustration-dotted-shape-icon-concept-design.jpg?s=612x612&w=0&k=20&c=z7ix5CTWcdRG_-YdOWKJupMcPEUU1CTzvy8PotXZ_J8="
+                width="30px" class="arrow"></a>
+        <figcaption><b>CLICK ON THE ARROW AND MAKE YOUR ATTENDENCE</b></figcaption>
+
+    </div>
+    <div class="image">
+        <img src="https://media.istockphoto.com/id/1323715308/photo/african-american-girl-raising-her-hands-while-sitting-on-her-desk-in-the-class-at-school.jpg?s=612x612&w=0&k=20&c=BVEADI9FBMmp_9yC3gnelNsFyvCx44DIhRn7rGVa1pY="
+            width="200px">
+        <img src="https://media.istockphoto.com/id/1279984422/photo/elementary-schoolchildren-wearing-a-protective-face-masks-in-the-classroom-education-during.jpg?s=612x612&w=0&k=20&c=TZsah7TVW_V-OEi75baXOHmVEMD_r3xs-qv_d_nDwUQ="
+            width="200px">
+        <img src="https://media.istockphoto.com/id/1324689337/photo/indian-village-government-school-girls-operating-laptop-computer-system-at-rural-area-in-india.jpg?s=612x612&w=0&k=20&c=yXYV73UwR6ZXOhcxv96TVNLH_A3AvL55qjaA3BRSDPY="
+            width="200px">
+        <img src="https://media.istockphoto.com/id/1170717275/photo/lets-learn-something-new-today.jpg?s=612x612&w=0&k=20&c=cdAb-boDeHfhz1iS2zs-GN_tb7x8PuCefZ4RlsmZdno="
+            width="200px">
+        <img src="https://media.istockphoto.com/id/1338737384/photo/african-american-schoolgirl-pupil-student-using-working-with-microscope-at-biology-chemistry.jpg?s=612x612&w=0&k=20&c=0B9eHddefnf8ezZm_0Ezic-ByZxonZkfT0-j8CJ201E="
+            width="200px">
+        <img src="https://media.istockphoto.com/id/1327072542/photo/happy-mature-teacher-assisting-her-students-on-computer-class-at-school.jpg?s=612x612&w=0&k=20&c=eh9LlwhfatIQIRmyPa4NmpaYuTqkiDLN7dMaB0B7LDg="
+            width="200px">
+    </div>
+</body>
+
+</html>
